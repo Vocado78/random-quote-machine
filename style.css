@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(http://res.cloudinary.com/vocado78/image/upload/v1499003298/notebook-1587525_1920_hkeiil.jpg);
+  background-size: cover;
+  font-size: 100%;
+}
+
+h1 {
+  color: #2E1037;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 2em;
+  text-decoration: underline;
+  height: 100px;
+  margin-left: 25%;
+}
+
+.quote-box {
+  text-align: center;
+  margin: 100px 35% 0 25%;
+}
+
+span {
+  font-family: "Indie Flower", cursive;
+  font-size: 2em;
+  color: #2E1037;
+}
+
+#author {
+  font-size: 1.5em;
+}
+
+.transformed {
+  transform: rotate(-10deg);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px 40% 0 30%;
+}
+
+.fa-quote-left {
+  float: left;
+  color: #2E1037;
+}
+
+#getQuote {
+  font-family: "Indie Flower", cursive;
+  color: #2E1037;
+  font-size: 1.2em;
+}
+
+#tweetQuote {
+  color: #2E1037;
+}
+
+footer {
+  font-family: "Indie Flower", cursive;
+  font-size: 0.8em;
+  color:  grey;
+  padding-bottom: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 40%;
+}
