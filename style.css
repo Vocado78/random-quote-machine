@@ -53,10 +53,19 @@ span {
   font-family: "Indie Flower", cursive;
   color: #2E1037;
   font-size: 1.2em;
+  border: none;
+  background-color: transparent;
 }
 
 #tweetQuote {
   color: #2E1037;
+  border: none;
+  background-color: transparent;
+}
+
+#getQuote:hover, #tweetQuote:hover {
+  cursor: pointer;
+  color: #A539C6;
 }
 
 footer {
